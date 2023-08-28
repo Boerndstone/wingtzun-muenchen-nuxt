@@ -3,6 +3,7 @@
     <nav-bar />
     <nuxt />
     <footer-area />
+    <vue-cookieconsent  />
   </div>
 </template>
 

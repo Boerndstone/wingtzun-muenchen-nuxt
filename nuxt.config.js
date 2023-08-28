@@ -12,6 +12,12 @@ export default {
       { name: "format-detection", content: "telephone=no" },
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+    link: [
+      {
+        rel: "stylesheet",
+        href: "https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.8.8/dist/cookieconsent.css",
+      },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -26,7 +32,7 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/eslint
-    "@nuxtjs/eslint-module",
+    //"@nuxtjs/eslint-module",
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
